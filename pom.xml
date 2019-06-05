@@ -34,7 +34,7 @@
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://192.168.56.1:8081/repository/jerkins-maven-snapshot/</url>
+            <url>http://192.168.56.1:8081/repository/jenkins-maven-snapshot-transfer/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
