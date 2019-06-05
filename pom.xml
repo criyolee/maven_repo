@@ -27,14 +27,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
+            <id>deploymentRepo</id>
+            <name>jerkins-maven-release</name>
             <url>http://192.168.56.1:8081/repository/jerkins-maven-release/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://192.168.56.1:8081/repository/jenkins-maven-snapshot-transfer/</url>
+            <id>deploymentRepo</id>
+            <name>jerkins-maven-snapshot</name>
+            <url>http://192.168.56.1:8081/repository/jerkins-maven-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
