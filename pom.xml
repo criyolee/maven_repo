@@ -34,7 +34,7 @@
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/repository/sample-snapshot/</url>
+            <url>http://localhost:8081/service/rest/repository/browse/sample-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
